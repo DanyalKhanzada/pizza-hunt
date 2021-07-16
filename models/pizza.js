@@ -24,7 +24,6 @@ const PizzaSchema = new Schema(
       enum: ['Personal', 'Small', 'Medium', 'Large', 'Extra Large'],
       default: 'Large'
     },
-    
     toppings: [],
     comments: [
       {
